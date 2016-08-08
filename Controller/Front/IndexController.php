@@ -16,11 +16,11 @@ class IndexController extends Controller
     {
         $news = News_Module::getInstance()->addNews( "xxx" );
         
-        $test = "xxxxxxxxxxxxxx";
+        $test = "world";
         
         $this->assign( "test" , $test );
         
-        $this->display( "index.html" );
+        $this->view( "index.html" );
     }
     
    
