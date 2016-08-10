@@ -75,12 +75,12 @@ define( "CONFIG_DIR" , ROOT_DIR . "/Config" );
 if( DEBUG  )
 {
     ini_set( 'display_errors' , 'On' );
-	error_reporting( E_ALL ^ E_NOTICE );
+    error_reporting( E_ALL ^ E_NOTICE );
 }
 else
 {
     ini_set( 'display_errors' , 'Off' );
-	error_reporting( 0 );
+    error_reporting( 0 );
 }
 
 
